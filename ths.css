@@ -1,0 +1,450 @@
+* {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  nav {
+    width: 100%;
+    height: 100px;
+    background-color: #c3dbe8;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .main-container {
+    width: 95%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  button {
+    color: white;
+    background-color: black;
+    padding: 0.7rem 1.1rem;
+    font-size: 16px;
+    border-radius: 10px;
+    border: none;
+  }
+  
+  .nav-icon {
+    width: 2rem;
+    height: 3.5px;
+    background-color: black;
+  }
+  
+  .nav-right {
+    display: flex;
+    flex-direction: row;
+    gap: 1.6rem;
+  }
+  .icon {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .container1 {
+    padding-top: 2rem;
+    padding-bottom: 4rem;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #c3dbe8;
+    z-index: 2;
+    /* height: 50rem; */
+  }
+  .main-container1 {
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .confused-man {
+    position: absolute;
+    bottom: -6rem;
+    right: 40px;
+    z-index: 4;
+    width: 32rem;
+  }
+  .time-is-money {
+    position: absolute;
+    bottom: 2rem;
+    left: 16.7rem;
+    width: 8rem;
+  }
+  
+  .mc1l {
+    padding-top: 50px;
+    width: 40%;
+    /* width: 40%; */
+  }
+  
+  .tick_points {
+    padding-bottom: 3.9rem;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 12px;
+    color: #2b3e47;
+  }
+  .tick {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+  }
+  
+  .time {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    align-items: center;
+    padding-bottom: 12px;
+    margin-top: -15px;
+  }
+  
+  .button1 {
+    color: white;
+    background-color: #071419;
+    border: none;
+    padding: 1rem 4.5rem;
+    font-size: 16px;
+    border-radius: 4 px;
+  }
+  
+  .button-img {
+    /* position: relative; */
+    padding-bottom: 13px;
+  }
+  
+  .container2 {
+    background-color: #071419;
+    z-index: 6;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .main-container2 {
+    padding-top: 5.7rem;
+    width: 85%;
+    color: white;
+    padding-bottom: 10rem;
+  }
+  
+  .main-container2 .card {
+    width: 15rem;
+    color: white;
+  }
+  .card {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    background: linear-gradient(151.83deg, #1c272d 12.09%, #162126 95.36%),
+      linear-gradient(
+        116.49deg,
+        rgba(79, 102, 114, 0.25) 7.63%,
+        rgba(43, 62, 71, 0.5) 94.74%
+      );
+    padding: 1.1rem 1.2rem;
+    border-radius: 5px;
+  }
+  
+  .cards {
+    display: flex;
+    flex-direction: row;
+    gap: 3.5rem;
+    padding-bottom: 10rem;
+  }
+  
+  .container2_lower {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .button2 {
+    color: #071419;
+    background-color: #ffffff;
+    border: none;
+    font-size: 16px;
+    font-weight: 550;
+    padding: 1rem 4.5rem;
+    border-radius: 200 px;
+  }
+  
+  .container3 {
+    padding-top: 2rem;
+    padding-bottom: 4rem;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #c3dbe8;
+    position: relative;
+    z-index: 2;
+    /* height: 50rem; */
+  }
+  
+  .main-container3 {
+    width: 1200px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 5rem;
+    padding-bottom: 4rem;
+  }
+  .main-container_3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* margin-top: -11rem; */
+    /* align-items: center; */
+  }
+  .c3b1 {
+    background-color: white;
+    width: 70%;
+    padding: 1.2rem;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 0.4rem;
+  }
+  
+  .point {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.7rem;
+    color: #071419;
+    font-size: 14px;
+  }
+  
+  .c3b2 {
+    background-color: white;
+    width: 70%;
+    padding: 1.2rem;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 0.7rem;
+  }
+  
+  .container4 {
+    background-color: #071419;
+    z-index: 6;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .main-container4 {
+    width: 950px;
+    padding: 7rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+  }
+  
+  .container4-cards {
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+    padding-top: 4rem;
+  }
+  
+  .c4card {
+    background-color: #ffffff;
+    width: 60%;
+    padding: 2rem;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 1.5rem;
+  }
+  
+  .container5 {
+    padding-top: 6rem;
+    padding-bottom: 4rem;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #c3dbe8;
+    /* position: relative;
+    z-index: 2;
+    height: 50rem; */
+  }
+  
+  .main-container5 {
+    width: 90%;
+  }
+  
+  .container6 {
+    /* padding-top: 6rem; */
+    padding-bottom: 4rem;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #c3dbe8;
+  }
+  
+  .main-container6 {
+    width: 30%;
+    margin-top: -3rem;
+    text-align: center;
+  }
+  
+  .container7 {
+    /* padding-top: 6rem; */
+    /* padding-bottom: 4rem; */
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #c3dbe8;
+  }
+  
+  .main-container7 {
+    width: 80%;
+    display: grid;
+    gap: 1.4rem 3.2rem;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding-bottom: 11rem;
+  }
+  .grid-item {
+    background-color: white;
+    padding: 1rem;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 1rem;
+  }
+  
+  .container8 {
+    /* padding-top: 6rem; */
+    /* padding-bottom: 4rem; */
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #c3dbe8;
+  }
+  .main-container8 {
+    width: 96%;
+    display: grid;
+    grid-template-columns: 61% 35%;
+    gap: 3rem;
+    padding-bottom: 10rem;
+  }
+  
+  .mc8l {
+    background-color: #071419;
+    padding: 2rem;
+    border: none;
+    border-radius: 0.5rem;
+    /* width: 100%; */
+  }
+  ::placeholder {
+    color: #c3dbe8;
+    font-size: 14px;
+    font-weight: 550;
+  }
+  
+  .mc8r {
+    padding: 2rem;
+    /* background-color: #071419; */
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    gap: 4rem;
+  }
+  input {
+    width: 40rem;
+    border: none;
+    outline: none;
+    color: #c3dbe8;
+    font-size: 14px;
+    font-weight: 550;
+  }
+  footer {
+    background-color: #071419;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .main-container9 {
+    padding-top: 2.7rem;
+    width: 89%;
+  }
+  .main-container10 {
+    padding-top: 5rem;
+    width: 98%;
+    color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 12rem;
+  }
+  .foot-line {
+    background-color: #071419;
+    padding-bottom: 2rem;
+  }
+  
+  @media only screen and (max-width: 1060px) {
+    .main-container1 {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+  
+      /* width: 100%; */
+    }
+    .confused-man {
+      position: static;
+      width: 30%;
+    }
+    .time-is-money {
+      position: absolute;
+      bottom: 42%;
+    }
+  }
+  @media only screen and (max-width: 500px) {
+    .main-container1 {
+      display: flex;
+      flex-direction: column;
+      gap: 2rem;
+      justify-content: center;
+      width: 80%;
+      font-size: 10px;
+    }
+    .confused-man {
+      position: static;
+      width: 50%;
+    }
+    .main-container2{
+      display: flex;
+      flex-direction: column;
+      gap: 2rem;
+    }
+    .cards{
+      display: flex;
+      flex-direction: column;
+      gap: 2rem;
+    }
+  }
+  
